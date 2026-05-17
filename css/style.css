@@ -1,0 +1,121 @@
+/*COLORES TODO EL PROYECTO*/
+:root{
+    ---color-primary: red;
+    ---Color-secundario: blue;
+    ---color-terciario: black;
+    ---color-cuarto: white;
+    ---color-quinto: green; 
+}
+/*FUENTES DE TODO EL PROYECTO*/
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*INICIO (BIENVENIDA)*/
+.Titulo{
+    text-align: right;
+    color:var(---color-terciario);
+    font-size: 4rem;
+    padding-right: 4rem;
+    margin: 0;
+}
+/*LINK DE NAVEGACION*/
+nav a{
+    color: var(---color-terciario) !important;
+    text-decoration: none;
+    margin-right: 3rem;
+}
+/*BARRA NAVEGACION*/
+nav{
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(---color-quinto);
+    text-decoration: none;
+}
+/*SECTION IMAGENES*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+header img {
+    width: 30rem;
+    height: auto;
+}
+
+/*DATOS PERSONALES*/
+.SOBRELAPELICULA{
+    text-align: center;
+    color: var(---color-terciario);
+}
+.SOBRELAPELICULA p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.Galeria{
+
+    text-align: center;
+    color: var(---color-terciario);
+
+}
+
+/*Informacion*/
+
+.Informacion{
+    text-align: center;
+    color: var(---color-terciario);
+}
+.Informacionh4{
+   text-align: center;
+   color: var(---color-terciario);
+}
+.Informacion img{
+    text-align: center;
+}
+
+.Ulcenter{
+    text-align: center;
+}
+/*Contactos*/
+.Contactos {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(---color-terciario);
+    margin-bottom: 2rem;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px solid var(---color-terciario);
+    border-radius: 1rem;
+}
+
+form {
+    width: 100%;
+    text-align: left;
+}
+
+form input, form textarea {
+    width: 97%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(---color-quinto);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
